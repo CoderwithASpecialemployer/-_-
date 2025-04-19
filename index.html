@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NextLevel Vertrieb</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Werde Teil von etwas Großem.</h1>
+      <p>NextLevel Vertrieb – Für die, die mehr wollen als 9 to 5.</p>
+      <a href="#join" class="btn">Jetzt durchstarten</a>
+    </div>
+  </header>
+
+  <section class="container" id="why">
+    <h2>Warum NextLevel?</h2>
+    <div class="grid">
+      <div>
+        <h3>Modern Culture</h3>
+        <p>Keine Krawatten. Kein Büro-Blabla. Hier zählt, was du drauf hast.</p>
+      </div>
+      <div>
+        <h3>Digital & Direkt</h3>
+        <p>Wir arbeiten smart, nicht kompliziert. Remote möglich. Team always on fire.</p>
+      </div>
+      <div>
+        <h3>Performance zahlt sich aus</h3>
+        <p>Faire Bezahlung, echte Perspektiven, klarer Wachstumspfad.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="visual">
+    <div class="container flex">
+      <div class="text">
+        <h2>Tech trifft Mensch.</h2>
+        <p>Wir verbinden modernste Vertriebsansätze mit ehrlicher Kommunikation und starken Teams.</p>
+      </div>
+      <img src="https://images.unsplash.com/photo-1591696205602-2f950c417cb9?auto=format&fit=crop&w=800&q=80" alt="Tech Meeting" />
+    </div>
+  </section>
+
+  <section class="container" id="join">
+    <h2>Dein Einstieg in 3 Steps</h2>
+    <ol>
+      <li><strong>Online bewerben:</strong> Kein Papierkram. Sag uns, wer du bist.</li>
+      <li><strong>Call vereinbaren:</strong> Wir sprechen locker, offen, auf Augenhöhe.</li>
+      <li><strong>Let's build:</strong> Wenn es matcht, starten wir direkt durch.</li>
+    </ol>
+    <a href="#bewerbung" class="btn accent">Jetzt bewerben</a>
+  </section>
+
+  <section class="form-container" id="bewerbung">
+    <h2>Jetzt bewerben</h2>
+    <form id="bewerbungsFormular">
+      <div class="input-group">
+        <label for="vorname">Vorname</label>
+        <input type="text" id="vorname" name="vorname" required>
+      </div>
+
+      <div class="input-group">
+        <label for="nachname">Nachname</label>
+        <input type="text" id="nachname" name="nachname" required>
+      </div>
+
+      <div class="input-group">
+        <label for="email">E-Mail</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="input-group">
+        <label for="telefon">Telefonnummer</label>
+        <input type="tel" id="telefon" name="telefon" required>
+      </div>
+
+      <div class="input-group">
+        <label for="wohnort">Wohnort</label>
+        <input type="text" id="wohnort" name="wohnort" required>
+      </div>
+
+      <div class="input-group">
+        <label for="nachricht">Warum willst du bei uns arbeiten?</label>
+        <textarea id="nachricht" name="nachricht" rows="4"></textarea>
+      </div>
+
+      <button type="submit" class="btn">Bewerbung absenden</button>
+    </form>
+    <p id="success-message" class="success"></p>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>NextLevel Vertrieb © 2025 – Clean. Digital. Driven.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
